@@ -43,3 +43,4 @@ for item, price in items_purchase.items():
         basket.append(item)
         clean_wallet -= clean_price
 print(basket)
+
