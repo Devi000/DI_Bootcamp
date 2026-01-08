@@ -1,0 +1,11 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week2/Day5_6/Exercises.py
+suggestions for improvement:
+- In Exercise 1, consider returning the cat object itself from `find_oldest_cat` instead of printing directly within the function. This allows for more flexibility in how the information is used.
+- In Exercise 4, `get__groups` has a typo; it should be `get_groups`.  Also, the string formatting in `get_groups` within the print statement can be simplified using `.join()`.
+- In Exercise 1, the print statements include extra quotes.
+Brief justification:
+- correctness: The code addresses all four exercises, implementing the requested classes, methods, and object instantiations correctly. The exercises cover classes, objects, methods, attributes, and conditional statements. Exercise 1's `find_oldest_cat` prints directly, which is slightly less flexible than returning the object. Exercise 4 has a typo in the method name `get__groups`. Overall, it correctly addresses the core concepts.
+- readability: The code is generally well-formatted and easy to follow. Variable names are descriptive.  Minor improvements could be made in `get_groups` to use `.join()` for better readability when printing the grouped animals.
+- performance: The code has good performance, using efficient data structures and algorithms for the tasks at hand.  The sorting and grouping logic in the `Zoo` class is reasonably efficient for the expected input sizes.
+- security: There are no apparent security concerns in the code, as it does not handle external input or perform sensitive operations.
+
